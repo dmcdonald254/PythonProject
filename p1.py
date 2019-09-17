@@ -16,4 +16,4 @@ def greet(who_to_greet):
 r = requests.get("https://www.google.com")
 print("Status Code: \n", r.status_code, " \n")
 print("Cookies: \n", r.cookies, "\n")
-print("Time elapsed: \n", r.elapsed, "\n")
+print("Time elapsed: \n", r.elapsed, "\n\n")
