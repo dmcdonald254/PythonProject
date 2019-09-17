@@ -11,7 +11,7 @@ print(sys.executable)
 def greet(who_to_greet):
     test = 'Test'
     greeting =  'Hello, {}'.format(who_to_greet)
-    return greeting
+    return test
 
 r = requests.get("https://www.google.com")
 print("Status Code: \n", r.status_code, " \n")
